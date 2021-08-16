@@ -5,6 +5,7 @@
   "dependencies": {
     "jquery": "^3.5.1",
     "node": "^12.16.2",
+    "qrcode.react": "^1.0.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-ga": "^2.3.5",

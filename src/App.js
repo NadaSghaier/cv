@@ -9,6 +9,8 @@ import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
 
+var React = require('react');
+var QRCode = require('qrcode.react');
 class App extends Component {
 
   constructor(props){
@@ -54,6 +56,12 @@ class App extends Component {
       </div>
     );
   }
+  
+
+React.render(
+  <QRCode value="http://facebook.github.io/react/" />,
+  mountNode
+);
 }
 
 export default App;
